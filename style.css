@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --bg-color: #0f1607;
+    --bg-calculator: #e9c46a;
+    --primary-color: #1d738d;
+    --bg2-color: #cfc7c7;
+    --light-color: #6684b1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--poppins-weight-300);
+}
+
+
+
+
+.Calendar {
+    background-color: var(--dark-color);
+    height: 100%;
+    width: 50%;
+}
+
+
+.Calendar .navbarTypa h3{
+    color: var(--bg-color);
+    align-items: center;
+    display: inline-block;
+ 
+}
+
+.Calendar .days{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--bg-color);
+    padding: 10px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--poppins-weight-300);
+}
+
+.Calendar {
+    background-color: var(--bg2-color);
+    height: 100%;
+    width: 50%;
+}
+
+.Calendar .navbarTypa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calendar .navbarTypa h3{
+    color: var(--bg-color);
+    align-items: center;
+    display: inline-block;
+   
+}
+
+.Calendar .days{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--bg-color);
+    padding: 10px;
+}
